@@ -55,6 +55,34 @@ O projeto será dividido em várias camadas para garantir boa organização e se
 - **Ferramentas de Desenvolvimento**: Apache NetBeans, GitHub
 - **Controle de Versão**: Git
 
+## Instalação
+
+Siga os passos abaixo para rodar o sistema localmente:
+
+### 1. Clonar o repositório
+```bash
+git clone https://github.com/dev-kaio/EstoqueComercial.git
+```
+
+2. Abrir no NetBeans
+Abra o NetBeans e selecione File > Open Project.
+Navegue até a pasta clonada e abra o projeto.
+3. Configurar o banco de dados
+Crie o banco de dados desejado (ex: MySQL, PostgreSQL).
+Configure o arquivo de conexão do projeto (Conexao.java) com as credenciais do seu banco.
+4. Compilar e executar
+No NetBeans, clique com o botão direito no projeto e selecione Run.
+O sistema será iniciado e estará pronto para uso.
+2. Abrir no NetBeans
+Abra o NetBeans e selecione File > Open Project.
+Navegue até a pasta clonada e abra o projeto.
+3. Configurar o banco de dados
+Crie o banco de dados desejado (ex: MySQL, PostgreSQL).
+Configure o arquivo de conexão do projeto (Conexao.java) com as credenciais do seu banco.
+4. Compilar e executar
+No NetBeans, clique com o botão direito no projeto e selecione Run.
+O sistema será iniciado e estará pronto para uso.
+
 # Desenvolvedores:
 
 Bernardo Melgarejo Gloria (1072615750) : [dev-gloria1](https://github.com/dev-gloria1)
