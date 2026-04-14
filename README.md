@@ -69,11 +69,15 @@ git clone https://github.com/dev-kaio/EstoqueComercial.git
    
 Abra o NetBeans e selecione File > Open Project.
 Navegue até a pasta clonada e abra o projeto.
+
+
 4. Configurar o banco de dados
 
 
 Crie o banco de dados desejado (ex: MySQL, PostgreSQL).
 Configure o arquivo de conexão do projeto (Conexao.java) com as credenciais do seu banco.
+
+
 5. Compilar e executar
 
 
