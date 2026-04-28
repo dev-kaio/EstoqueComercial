@@ -50,9 +50,9 @@ O projeto será dividido em várias camadas para garantir boa organização e se
 
 ## Tecnologias Utilizadas
 
-- **Linguagem**: Java
-- **Banco de Dados**: A decidir
-- **Ferramentas de Desenvolvimento**: Apache NetBeans, GitHub
+- **Linguagem**: Java 21
+- **Banco de Dados**: SQLite 3.53.0.0
+- **Ferramentas de Desenvolvimento**: Apache NetBeans 2.4.66, GitHub
 - **Controle de Versão**: Git
 
 ## Instalação
