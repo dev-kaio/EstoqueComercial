@@ -4,13 +4,13 @@ public class Produto extends Categoria {
 
     public String nomep;
     public double preco;
-    public int unidade;
+    public String unidade; // considerar troca de tipo de variável, seria ex: kg, litro, unidade???
     public int quantidade;
     public int qtdeMin;
     public int qtdeMax;
     public String categoria;
 
-    public Produto(String nomep, double preco, int unidade, int quantidade, int qtdeMin, int qtdeMax, String categoria, String nome, String tamanho, String embalagem) {
+    public Produto(String nomep, double preco, String unidade, int quantidade, int qtdeMin, int qtdeMax, String categoria, String nome, String tamanho, String embalagem) {
         super(nome, tamanho, embalagem);
         this.nomep = nomep;
         this.preco = preco;
@@ -37,11 +37,11 @@ public class Produto extends Categoria {
         this.preco = preco;
     }
 
-    public int getUnidade() {
+    public String getUnidade() {
         return unidade;
     }
 
-    public void setUnidade(int unidade) {
+    public void setUnidade(String unidade) {
         this.unidade = unidade;
     }
 
@@ -76,6 +76,6 @@ public class Produto extends Categoria {
     public void setCategoria(String categoria) {
         this.categoria = categoria;
     }
-    
-    
+
+
 }
