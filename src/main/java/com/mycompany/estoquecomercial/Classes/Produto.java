@@ -1,32 +1,24 @@
 package com.mycompany.estoquecomercial.Classes;
 
-public class Produto extends Categoria {
+public class Produto {
+    private String nome;
+    private double preco;
+    private String unidade; // exemplo: "kg", "litro"
+    private int quantidadeEstoque;
 
-    public String nomep;
-    public double preco;
-    public String unidade; // considerar troca de tipo de variável, seria ex: kg, litro, unidade???
-    public int quantidade;
-    public int qtdeMin;
-    public int qtdeMax;
-    public String categoria;
-
-    public Produto(String nomep, double preco, String unidade, int quantidade, int qtdeMin, int qtdeMax, String categoria, String nome, String tamanho, String embalagem) {
-        super(nome, tamanho, embalagem);
-        this.nomep = nomep;
+    public Produto(String nome, double preco, String unidade, int quantidadeEstoque) {
+        this.nome = nome;
         this.preco = preco;
         this.unidade = unidade;
-        this.quantidade = quantidade;
-        this.qtdeMin = qtdeMin;
-        this.qtdeMax = qtdeMax;
-        this.categoria = categoria;
+        this.quantidadeEstoque = quantidadeEstoque;
     }
 
-    public String getNomep() {
-        return nomep;
+    public String getNome() {
+        return nome;
     }
 
-    public void setNomep(String nomep) {
-        this.nomep = nomep;
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
     public double getPreco() {
@@ -45,37 +37,11 @@ public class Produto extends Categoria {
         this.unidade = unidade;
     }
 
-    public int getQuantidade() {
-        return quantidade;
+    public int getQuantidadeEstoque() {
+        return quantidadeEstoque;
     }
 
-    public void setQuantidade(int quantidade) {
-        this.quantidade = quantidade;
+    public void setQuantidadeEstoque(int quantidadeEstoque) {
+        this.quantidadeEstoque = quantidadeEstoque;
     }
-
-    public int getQtdeMin() {
-        return qtdeMin;
-    }
-
-    public void setQtdeMin(int qtdeMin) {
-        this.qtdeMin = qtdeMin;
-    }
-
-    public int getQtdeMax() {
-        return qtdeMax;
-    }
-
-    public void setQtdeMax(int qtdeMax) {
-        this.qtdeMax = qtdeMax;
-    }
-
-    public String getCategoria() {
-        return categoria;
-    }
-
-    public void setCategoria(String categoria) {
-        this.categoria = categoria;
-    }
-
-
 }
